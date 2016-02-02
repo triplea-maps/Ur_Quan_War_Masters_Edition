@@ -1,0 +1,2869 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Ur-Quan Slave War: Masters Edition" version="1.0"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <!-- Territory Definitions -->
+    <territory name="Geminorum"/>
+    <territory name="S41"/>
+    <territory name="S43"/>
+    <territory name="Crateris"/>
+    <territory name="Altair"/>
+    <territory name="Antares"/>
+    <territory name="Doradus"/>
+    <territory name="Eridani"/>
+    <territory name="Lentilis"/>
+    <territory name="Chameleonis"/>
+    <territory name="Metis"/>
+    <territory name="Crucis"/>
+    <territory name="Equulei"/>
+    <territory name="S17"/>
+    <territory name="S28"/>
+    <territory name="S27"/>
+    <territory name="Cancri"/>
+    <territory name="Maksutov"/>
+    <territory name="Procyon"/>
+    <territory name="Regulus"/>
+    <territory name="Sextantis"/>
+    <territory name="S66"/>
+    <territory name="S67"/>
+    <territory name="Luyten"/>
+    <territory name="S84"/>
+    <territory name="Indi"/>
+    <territory name="Cerenkov"/>
+    <territory name="S82"/>
+    <territory name="S83"/>
+    <territory name="Capella"/>
+    <territory name="Gorno"/>
+    <territory name="Mizar"/>
+    <territory name="Volantis"/>
+    <territory name="Bootis"/>
+    <territory name="Tauri"/>
+    <territory name="Olber"/>
+    <territory name="Krueger"/>
+    <territory name="Giclas"/>
+    <territory name="Lacaille"/>
+    <territory name="Illuminati"/>
+    <territory name="Ceti"/>
+    <territory name="Vitalis"/>
+    <territory name="Herculis"/>
+    <territory name="Gruis"/>
+    <territory name="Squidi"/>
+    <territory name="Tucanae"/>
+    <territory name="Cassiopiea"/>
+    <territory name="Carinae"/>
+    <territory name="Caphei"/>
+    <territory name="Normae"/>
+    <territory name="Orionis"/>
+    <territory name="Octantis"/>
+    <territory name="S61"/>
+    <territory name="Mira"/>
+    <territory name="Mensae"/>
+    <territory name="Vulpeculae"/>
+    <territory name="Pollux"/>
+    <territory name="Serpentis"/>
+    <territory name="Scuti"/>
+    <territory name="S3"/>
+    <territory name="Antilae"/>
+    <territory name="Draconis"/>
+    <territory name="S12"/>
+    <territory name="Apodis"/>
+    <territory name="Circini"/>
+    <territory name="Betelgeuse"/>
+    <territory name="Sirius"/>
+    <territory name="Chandrasekhar"/>
+    <territory name="Arianni"/>
+    <territory name="S62"/>
+    <territory name="Bellatrix"/>
+    <territory name="Sculptoris"/>
+    <territory name="Copernicus"/>
+    <territory name="Hyperion"/>
+    <territory name="Sagitarii"/>
+    <territory name="Brahe"/>
+    <territory name="Scorpii"/>
+    <territory name="Librae"/>
+    <territory name="Aquarii"/>
+    <territory name="Hyades"/>
+    <territory name="S10"/>
+    <territory name="S9"/>
+    <territory name="Hydrae"/>
+    <territory name="Leonis"/>
+    <territory name="Fornacis"/>
+    <territory name="Andromedae"/>
+    <territory name="Reticuli"/>
+    <territory name="Horologii"/>
+    <territory name="S18"/>
+    <territory name="S20"/>
+    <territory name="S22"/>
+    <territory name="Leporis"/>
+    <territory name="S23"/>
+    <territory name="S29"/>
+    <territory name="S30"/>
+    <territory name="Centauri"/>
+    <territory name="S1"/>
+    <territory name="S2"/>
+    <territory name="Lyncis"/>
+    <territory name="Capricorni"/>
+    <territory name="Ophiuchi"/>
+    <territory name="Vega"/>
+    <territory name="Persei"/>
+    <territory name="S57"/>
+    <territory name="S58"/>
+    <territory name="S69"/>
+    <territory name="Piscium"/>
+    <territory name="WH-E"/>
+    <territory name="S71"/>
+    <territory name="S70"/>
+    <territory name="Arietis"/>
+    <territory name="Almagest"/>
+    <territory name="Algol"/>
+    <territory name="Pictoris"/>
+    <territory name="Puppis"/>
+    <territory name="Pegasi"/>
+    <territory name="S40"/>
+    <territory name="S42"/>
+    <territory name="S44"/>
+    <territory name="S46"/>
+    <territory name="S45"/>
+    <territory name="S48"/>
+    <territory name="S47"/>
+    <territory name="S49"/>
+    <territory name="Arae"/>
+    <territory name="S51"/>
+    <territory name="S50"/>
+    <territory name="Raynet"/>
+    <territory name="S53"/>
+    <territory name="S52"/>
+    <territory name="S55"/>
+    <territory name="S54"/>
+    <territory name="S56"/>
+    <territory name="S59"/>
+    <territory name="Muscae"/>
+    <territory name="S4"/>
+    <territory name="S5"/>
+    <territory name="S6"/>
+    <territory name="S7"/>
+    <territory name="S8"/>
+    <territory name="S60"/>
+    <territory name="Pyxidis"/>
+    <territory name="S64"/>
+    <territory name="S63"/>
+    <territory name="S65"/>
+    <territory name="S68"/>
+    <territory name="Saurus"/>
+    <territory name="Wolf"/>
+    <territory name="WH-H"/>
+    <territory name="S73"/>
+    <territory name="S72"/>
+    <territory name="S75"/>
+    <territory name="S74"/>
+    <territory name="Lipi"/>
+    <territory name="S77"/>
+    <territory name="S76"/>
+    <territory name="S79"/>
+    <territory name="Cygnus"/>
+    <territory name="S78"/>
+    <territory name="WH-M"/>
+    <territory name="WH-N"/>
+    <territory name="WH-O"/>
+    <territory name="S80"/>
+    <territory name="Sagittae"/>
+    <territory name="S81"/>
+    <territory name="S86"/>
+    <territory name="S85"/>
+    <territory name="Alcor"/>
+    <territory name="Klystron"/>
+    <territory name="Deneb"/>
+    <territory name="Delphini"/>
+    <territory name="Vela"/>
+    <territory name="Fomalhaut"/>
+    <territory name="Caeli"/>
+    <territory name="Camelopardalis"/>
+    <territory name="Aldebaran"/>
+    <territory name="Achernar"/>
+    <territory name="Mersenne"/>
+    <territory name="Trianguli"/>
+    <territory name="Rigel"/>
+    <territory name="Lyrae"/>
+    <territory name="Virginis"/>
+    <territory name="Monocerotis"/>
+    <territory name="Arcturus"/>
+    <territory name="Phoenicis"/>
+    <territory name="Menkar"/>
+    <territory name="Pavonis"/>
+    <territory name="Organnon"/>
+    <territory name="Velorum"/>
+    <territory name="Ptolemae"/>
+    <territory name="Groombridge"/>
+    <territory name="Telescopii"/>
+    <territory name="Kepler"/>
+    <territory name="S11"/>
+    <territory name="S13"/>
+    <territory name="S15"/>
+    <territory name="S14"/>
+    <territory name="S16"/>
+    <territory name="Columbae"/>
+    <territory name="Aquilae"/>
+    <territory name="Hyginus"/>
+    <territory name="S21"/>
+    <territory name="S24"/>
+    <territory name="S26"/>
+    <territory name="Lacertae"/>
+    <territory name="S25"/>
+    <territory name="Canopus"/>
+    <territory name="Microscopii"/>
+    <territory name="S31"/>
+    <territory name="S33"/>
+    <territory name="S32"/>
+    <territory name="Aurigae"/>
+    <territory name="S35"/>
+    <territory name="S34"/>
+    <territory name="S37"/>
+    <territory name="S36"/>
+    <territory name="S39"/>
+    <territory name="S38"/>
+    <!-- Territory Connections -->
+    <connection t1="Geminorum" t2="S7"/>
+    <connection t1="Geminorum" t2="Lipi"/>
+    <connection t1="Geminorum" t2="WH-N"/>
+    <connection t1="Geminorum" t2="Fornacis"/>
+    <connection t1="Geminorum" t2="Chameleonis"/>
+    <connection t1="Geminorum" t2="S17"/>
+    <connection t1="S41" t2="S53"/>
+    <connection t1="S41" t2="S52"/>
+    <connection t1="S41" t2="Cancri"/>
+    <connection t1="S41" t2="Maksutov"/>
+    <connection t1="S43" t2="S41"/>
+    <connection t1="S43" t2="Metis"/>
+    <connection t1="S43" t2="S30"/>
+    <connection t1="Crateris" t2="S43"/>
+    <connection t1="Crateris" t2="Equulei"/>
+    <connection t1="Crateris" t2="S28"/>
+    <connection t1="Crateris" t2="S29"/>
+    <connection t1="Crateris" t2="Maksutov"/>
+    <connection t1="Altair" t2="Doradus"/>
+    <connection t1="Altair" t2="Lentilis"/>
+    <connection t1="Altair" t2="Chameleonis"/>
+    <connection t1="Altair" t2="Crucis"/>
+    <connection t1="Altair" t2="S27"/>
+    <connection t1="Antares" t2="Fornacis"/>
+    <connection t1="Antares" t2="Equulei"/>
+    <connection t1="Antares" t2="Horologii"/>
+    <connection t1="Antares" t2="S17"/>
+    <connection t1="Antares" t2="S18"/>
+    <connection t1="Doradus" t2="Monocerotis"/>
+    <connection t1="Doradus" t2="Chameleonis"/>
+    <connection t1="Doradus" t2="S16"/>
+    <connection t1="Doradus" t2="S27"/>
+    <connection t1="Eridani" t2="Antares"/>
+    <connection t1="Eridani" t2="Fornacis"/>
+    <connection t1="Eridani" t2="S17"/>
+    <connection t1="Lentilis" t2="Tucanae"/>
+    <connection t1="Lentilis" t2="Crucis"/>
+    <connection t1="Lentilis" t2="S27"/>
+    <connection t1="Lentilis" t2="Cancri"/>
+    <connection t1="Chameleonis" t2="Crucis"/>
+    <connection t1="Chameleonis" t2="S17"/>
+    <connection t1="Metis" t2="S42"/>
+    <connection t1="Metis" t2="S41"/>
+    <connection t1="Crucis" t2="Crateris"/>
+    <connection t1="Crucis" t2="Equulei"/>
+    <connection t1="Crucis" t2="S17"/>
+    <connection t1="Crucis" t2="S28"/>
+    <connection t1="Crucis" t2="Cancri"/>
+    <connection t1="Equulei" t2="S17"/>
+    <connection t1="Equulei" t2="S18"/>
+    <connection t1="S28" t2="S41"/>
+    <connection t1="S28" t2="Cancri"/>
+    <connection t1="S28" t2="Maksutov"/>
+    <connection t1="S27" t2="Caphei"/>
+    <connection t1="Maksutov" t2="S43"/>
+    <connection t1="Maksutov" t2="Cancri"/>
+    <connection t1="Procyon" t2="S59"/>
+    <connection t1="Procyon" t2="Volantis"/>
+    <connection t1="Procyon" t2="Bootis"/>
+    <connection t1="Procyon" t2="Olber"/>
+    <connection t1="Regulus" t2="Sextantis"/>
+    <connection t1="Regulus" t2="S66"/>
+    <connection t1="Regulus" t2="S74"/>
+    <connection t1="Regulus" t2="S84"/>
+    <connection t1="Regulus" t2="Indi"/>
+    <connection t1="Regulus" t2="Caeli"/>
+    <connection t1="Sextantis" t2="S75"/>
+    <connection t1="Sextantis" t2="Luyten"/>
+    <connection t1="Sextantis" t2="S84"/>
+    <connection t1="Sextantis" t2="Indi"/>
+    <connection t1="Sextantis" t2="Scuti"/>
+    <connection t1="S66" t2="S74"/>
+    <connection t1="S66" t2="Luyten"/>
+    <connection t1="S66" t2="Indi"/>
+    <connection t1="S66" t2="Vela"/>
+    <connection t1="S66" t2="Mira"/>
+    <connection t1="S67" t2="S62"/>
+    <connection t1="S67" t2="S75"/>
+    <connection t1="S67" t2="Luyten"/>
+    <connection t1="S67" t2="Cerenkov"/>
+    <connection t1="S67" t2="Sculptoris"/>
+    <connection t1="Luyten" t2="Indi"/>
+    <connection t1="Luyten" t2="Mira"/>
+    <connection t1="Luyten" t2="Cerenkov"/>
+    <connection t1="S84" t2="S82"/>
+    <connection t1="S84" t2="S83"/>
+    <connection t1="S84" t2="Caeli"/>
+    <connection t1="S82" t2="S83"/>
+    <connection t1="S82" t2="Caeli"/>
+    <connection t1="Capella" t2="S83"/>
+    <connection t1="Gorno" t2="S82"/>
+    <connection t1="Mizar" t2="Volantis"/>
+    <connection t1="Mizar" t2="Lacaille"/>
+    <connection t1="Mizar" t2="Olber"/>
+    <connection t1="Volantis" t2="S72"/>
+    <connection t1="Volantis" t2="Olber"/>
+    <connection t1="Bootis" t2="Olber"/>
+    <connection t1="Tauri" t2="S36"/>
+    <connection t1="Krueger" t2="Giclas"/>
+    <connection t1="Krueger" t2="Lacaille"/>
+    <connection t1="Giclas" t2="Ptolemae"/>
+    <connection t1="Illuminati" t2="S60"/>
+    <connection t1="Illuminati" t2="S65"/>
+    <connection t1="Illuminati" t2="Saurus"/>
+    <connection t1="Illuminati" t2="Mira"/>
+    <connection t1="Illuminati" t2="Vitalis"/>
+    <connection t1="Illuminati" t2="Vulpeculae"/>
+    <connection t1="Illuminati" t2="Herculis"/>
+    <connection t1="Illuminati" t2="Gruis"/>
+    <connection t1="Ceti" t2="WH-M"/>
+    <connection t1="Ceti" t2="Capricorni"/>
+    <connection t1="Ceti" t2="Vitalis"/>
+    <connection t1="Ceti" t2="S38"/>
+    <connection t1="Vitalis" t2="Mensae"/>
+    <connection t1="Vitalis" t2="Gruis"/>
+    <connection t1="Herculis" t2="Gruis"/>
+    <connection t1="Herculis" t2="Squidi"/>
+    <connection t1="Herculis" t2="S39"/>
+    <connection t1="Gruis" t2="Ceti"/>
+    <connection t1="Gruis" t2="Squidi"/>
+    <connection t1="Squidi" t2="Ceti"/>
+    <connection t1="Squidi" t2="S39"/>
+    <connection t1="Squidi" t2="S38"/>
+    <connection t1="Tucanae" t2="S40"/>
+    <connection t1="Tucanae" t2="Cassiopiea"/>
+    <connection t1="Tucanae" t2="Carinae"/>
+    <connection t1="Tucanae" t2="S27"/>
+    <connection t1="Tucanae" t2="Cancri"/>
+    <connection t1="Tucanae" t2="Caphei"/>
+    <connection t1="Cassiopiea" t2="S40"/>
+    <connection t1="Cassiopiea" t2="WH-M"/>
+    <connection t1="Cassiopiea" t2="Carinae"/>
+    <connection t1="Carinae" t2="WH-M"/>
+    <connection t1="Carinae" t2="Caphei"/>
+    <connection t1="Caphei" t2="WH-M"/>
+    <connection t1="Caphei" t2="Delphini"/>
+    <connection t1="Normae" t2="Orionis"/>
+    <connection t1="Normae" t2="Capricorni"/>
+    <connection t1="Normae" t2="S24"/>
+    <connection t1="Normae" t2="S26"/>
+    <connection t1="Normae" t2="S38"/>
+    <connection t1="Orionis" t2="Mersenne"/>
+    <connection t1="Orionis" t2="Octantis"/>
+    <connection t1="Orionis" t2="Columbae"/>
+    <connection t1="Orionis" t2="S24"/>
+    <connection t1="Orionis" t2="S26"/>
+    <connection t1="Orionis" t2="S25"/>
+    <connection t1="Octantis" t2="S12"/>
+    <connection t1="Octantis" t2="S15"/>
+    <connection t1="Octantis" t2="Columbae"/>
+    <connection t1="S61" t2="S67"/>
+    <connection t1="S61" t2="Mira"/>
+    <connection t1="S61" t2="Achernar"/>
+    <connection t1="S61" t2="Cerenkov"/>
+    <connection t1="S61" t2="Mensae"/>
+    <connection t1="S61" t2="Vulpeculae"/>
+    <connection t1="Mira" t2="Cerenkov"/>
+    <connection t1="Mira" t2="Vulpeculae"/>
+    <connection t1="Mensae" t2="Illuminati"/>
+    <connection t1="Vulpeculae" t2="Vitalis"/>
+    <connection t1="Vulpeculae" t2="Mensae"/>
+    <connection t1="Pollux" t2="Serpentis"/>
+    <connection t1="Pollux" t2="S76"/>
+    <connection t1="Pollux" t2="S85"/>
+    <connection t1="Serpentis" t2="Sextantis"/>
+    <connection t1="Serpentis" t2="S84"/>
+    <connection t1="Serpentis" t2="S83"/>
+    <connection t1="Serpentis" t2="Capella"/>
+    <connection t1="Serpentis" t2="Scuti"/>
+    <connection t1="Scuti" t2="Pollux"/>
+    <connection t1="Scuti" t2="S75"/>
+    <connection t1="S3" t2="Antilae"/>
+    <connection t1="S3" t2="Klystron"/>
+    <connection t1="S3" t2="S12"/>
+    <connection t1="Antilae" t2="Klystron"/>
+    <connection t1="Antilae" t2="Draconis"/>
+    <connection t1="Draconis" t2="S3"/>
+    <connection t1="Draconis" t2="S4"/>
+    <connection t1="Draconis" t2="S13"/>
+    <connection t1="Draconis" t2="S12"/>
+    <connection t1="S12" t2="S13"/>
+    <connection t1="S12" t2="S16"/>
+    <connection t1="Apodis" t2="Antilae"/>
+    <connection t1="Apodis" t2="Draconis"/>
+    <connection t1="Apodis" t2="S3"/>
+    <connection t1="Circini" t2="Sagittae"/>
+    <connection t1="Circini" t2="Chandrasekhar"/>
+    <connection t1="Circini" t2="S15"/>
+    <connection t1="Circini" t2="S24"/>
+    <connection t1="Betelgeuse" t2="S51"/>
+    <connection t1="Betelgeuse" t2="S52"/>
+    <connection t1="Sirius" t2="Lyrae"/>
+    <connection t1="Chandrasekhar" t2="S15"/>
+    <connection t1="Chandrasekhar" t2="S14"/>
+    <connection t1="Arianni" t2="S68"/>
+    <connection t1="Arianni" t2="S77"/>
+    <connection t1="Arianni" t2="Sagitarii"/>
+    <connection t1="Arianni" t2="Scorpii"/>
+    <connection t1="S62" t2="S61"/>
+    <connection t1="S62" t2="Achernar"/>
+    <connection t1="S62" t2="Sculptoris"/>
+    <connection t1="S62" t2="Copernicus"/>
+    <connection t1="S62" t2="Brahe"/>
+    <connection t1="S62" t2="Scorpii"/>
+    <connection t1="Bellatrix" t2="S62"/>
+    <connection t1="Bellatrix" t2="S67"/>
+    <connection t1="Bellatrix" t2="Sculptoris"/>
+    <connection t1="Sculptoris" t2="S75"/>
+    <connection t1="Sculptoris" t2="Hyperion"/>
+    <connection t1="Sculptoris" t2="Scorpii"/>
+    <connection t1="Copernicus" t2="Brahe"/>
+    <connection t1="Copernicus" t2="Kepler"/>
+    <connection t1="Hyperion" t2="Organnon"/>
+    <connection t1="Hyperion" t2="Scorpii"/>
+    <connection t1="Sagitarii" t2="S55"/>
+    <connection t1="Sagitarii" t2="Scorpii"/>
+    <connection t1="Brahe" t2="Sagitarii"/>
+    <connection t1="Brahe" t2="Kepler"/>
+    <connection t1="Brahe" t2="Scorpii"/>
+    <connection t1="Librae" t2="Aquarii"/>
+    <connection t1="Librae" t2="Hyades"/>
+    <connection t1="Librae" t2="Leporis"/>
+    <connection t1="Aquarii" t2="Hyades"/>
+    <connection t1="Aquarii" t2="S10"/>
+    <connection t1="Aquarii" t2="S21"/>
+    <connection t1="Aquarii" t2="Leporis"/>
+    <connection t1="Aquarii" t2="Lacertae"/>
+    <connection t1="Hyades" t2="S8"/>
+    <connection t1="Hyades" t2="S10"/>
+    <connection t1="Hyades" t2="Aquilae"/>
+    <connection t1="S10" t2="Aquilae"/>
+    <connection t1="S9" t2="S8"/>
+    <connection t1="S9" t2="Hyades"/>
+    <connection t1="S9" t2="Horologii"/>
+    <connection t1="S9" t2="Leporis"/>
+    <connection t1="Hydrae" t2="Horologii"/>
+    <connection t1="Hydrae" t2="S20"/>
+    <connection t1="Hydrae" t2="S22"/>
+    <connection t1="Hydrae" t2="S29"/>
+    <connection t1="Hydrae" t2="S31"/>
+    <connection t1="Hydrae" t2="S30"/>
+    <connection t1="Leonis" t2="Aquarii"/>
+    <connection t1="Leonis" t2="S11"/>
+    <connection t1="Leonis" t2="S10"/>
+    <connection t1="Leonis" t2="S21"/>
+    <connection t1="Leonis" t2="S23"/>
+    <connection t1="Fornacis" t2="S9"/>
+    <connection t1="Fornacis" t2="Horologii"/>
+    <connection t1="Fornacis" t2="S17"/>
+    <connection t1="Andromedae" t2="Leonis"/>
+    <connection t1="Andromedae" t2="S20"/>
+    <connection t1="Andromedae" t2="S22"/>
+    <connection t1="Andromedae" t2="S21"/>
+    <connection t1="Andromedae" t2="S23"/>
+    <connection t1="Reticuli" t2="S43"/>
+    <connection t1="Reticuli" t2="S45"/>
+    <connection t1="Reticuli" t2="S30"/>
+    <connection t1="Reticuli" t2="S32"/>
+    <connection t1="Horologii" t2="S18"/>
+    <connection t1="Horologii" t2="S20"/>
+    <connection t1="Horologii" t2="Leporis"/>
+    <connection t1="Horologii" t2="Lacertae"/>
+    <connection t1="Horologii" t2="S29"/>
+    <connection t1="S18" t2="S29"/>
+    <connection t1="S20" t2="S22"/>
+    <connection t1="S20" t2="S21"/>
+    <connection t1="S20" t2="Lacertae"/>
+    <connection t1="S22" t2="S23"/>
+    <connection t1="Leporis" t2="Lacertae"/>
+    <connection t1="S29" t2="Equulei"/>
+    <connection t1="S29" t2="S30"/>
+    <connection t1="S30" t2="S32"/>
+    <connection t1="Centauri" t2="S72"/>
+    <connection t1="Centauri" t2="Sirius"/>
+    <connection t1="Centauri" t2="Lyrae"/>
+    <connection t1="Centauri" t2="Giclas"/>
+    <connection t1="Centauri" t2="Ptolemae"/>
+    <connection t1="S1" t2="S2"/>
+    <connection t1="S1" t2="S3"/>
+    <connection t1="S1" t2="Vega"/>
+    <connection t1="S2" t2="S3"/>
+    <connection t1="S2" t2="Pavonis"/>
+    <connection t1="S2" t2="Ophiuchi"/>
+    <connection t1="S2" t2="Vega"/>
+    <connection t1="Lyncis" t2="S5"/>
+    <connection t1="Lyncis" t2="S8"/>
+    <connection t1="Lyncis" t2="Lipi"/>
+    <connection t1="Lyncis" t2="Menkar"/>
+    <connection t1="Lyncis" t2="Microscopii"/>
+    <connection t1="Capricorni" t2="S26"/>
+    <connection t1="Capricorni" t2="S38"/>
+    <connection t1="Ophiuchi" t2="Vega"/>
+    <connection t1="Vega" t2="Klystron"/>
+    <connection t1="Persei" t2="Algol"/>
+    <connection t1="Persei" t2="Pictoris"/>
+    <connection t1="Persei" t2="WH-E"/>
+    <connection t1="Persei" t2="Almagest"/>
+    <connection t1="Persei" t2="S71"/>
+    <connection t1="Persei" t2="S69"/>
+    <connection t1="Persei" t2="S57"/>
+    <connection t1="S57" t2="S69"/>
+    <connection t1="S57" t2="Sagitarii"/>
+    <connection t1="S57" t2="Algol"/>
+    <connection t1="S57" t2="Aurigae"/>
+    <connection t1="S58" t2="WH-E"/>
+    <connection t1="S58" t2="Phoenicis"/>
+    <connection t1="S69" t2="S71"/>
+    <connection t1="S69" t2="S70"/>
+    <connection t1="S69" t2="S78"/>
+    <connection t1="S69" t2="Aurigae"/>
+    <connection t1="Piscium" t2="Algol"/>
+    <connection t1="Piscium" t2="Pictoris"/>
+    <connection t1="Piscium" t2="Hyginus"/>
+    <connection t1="Piscium" t2="Puppis"/>
+    <connection t1="WH-E" t2="Almagest"/>
+    <connection t1="WH-E" t2="Pictoris"/>
+    <connection t1="S71" t2="S70"/>
+    <connection t1="S71" t2="Almagest"/>
+    <connection t1="S70" t2="S79"/>
+    <connection t1="S70" t2="Arietis"/>
+    <connection t1="Arietis" t2="S71"/>
+    <connection t1="Arietis" t2="Almagest"/>
+    <connection t1="Algol" t2="Pictoris"/>
+    <connection t1="Pictoris" t2="S58"/>
+    <connection t1="Puppis" t2="S57"/>
+    <connection t1="Puppis" t2="Algol"/>
+    <connection t1="Pegasi" t2="Muscae"/>
+    <connection t1="Pegasi" t2="Pavonis"/>
+    <connection t1="Pegasi" t2="S15"/>
+    <connection t1="Pegasi" t2="S14"/>
+    <connection t1="S40" t2="S41"/>
+    <connection t1="S40" t2="S51"/>
+    <connection t1="S40" t2="S52"/>
+    <connection t1="S40" t2="Ceti"/>
+    <connection t1="S40" t2="Betelgeuse"/>
+    <connection t1="S40" t2="Cancri"/>
+    <connection t1="S42" t2="S43"/>
+    <connection t1="S42" t2="S53"/>
+    <connection t1="S44" t2="S43"/>
+    <connection t1="S44" t2="S45"/>
+    <connection t1="S44" t2="S54"/>
+    <connection t1="S44" t2="Camelopardalis"/>
+    <connection t1="S44" t2="Reticuli"/>
+    <connection t1="S46" t2="S45"/>
+    <connection t1="S46" t2="S47"/>
+    <connection t1="S46" t2="Reticuli"/>
+    <connection t1="S46" t2="S32"/>
+    <connection t1="S45" t2="S54"/>
+    <connection t1="S45" t2="S56"/>
+    <connection t1="S48" t2="S47"/>
+    <connection t1="S48" t2="Pyxidis"/>
+    <connection t1="S48" t2="Piscium"/>
+    <connection t1="S48" t2="Phoenicis"/>
+    <connection t1="S48" t2="Pictoris"/>
+    <connection t1="S48" t2="Hyginus"/>
+    <connection t1="S47" t2="Pyxidis"/>
+    <connection t1="S47" t2="Phoenicis"/>
+    <connection t1="S47" t2="Hyginus"/>
+    <connection t1="S47" t2="S32"/>
+    <connection t1="S49" t2="S50"/>
+    <connection t1="S49" t2="Virginis"/>
+    <connection t1="S49" t2="Tauri"/>
+    <connection t1="S49" t2="Telescopii"/>
+    <connection t1="S49" t2="S37"/>
+    <connection t1="Arae" t2="WH-H"/>
+    <connection t1="Arae" t2="S70"/>
+    <connection t1="Arae" t2="S79"/>
+    <connection t1="Arae" t2="Alcor"/>
+    <connection t1="Arae" t2="Arietis"/>
+    <connection t1="S51" t2="S52"/>
+    <connection t1="S51" t2="Ceti"/>
+    <connection t1="S51" t2="Vitalis"/>
+    <connection t1="S51" t2="Mensae"/>
+    <connection t1="S50" t2="S60"/>
+    <connection t1="S50" t2="Virginis"/>
+    <connection t1="S50" t2="Herculis"/>
+    <connection t1="S50" t2="S39"/>
+    <connection t1="Raynet" t2="S64"/>
+    <connection t1="Raynet" t2="S65"/>
+    <connection t1="Raynet" t2="S73"/>
+    <connection t1="Raynet" t2="S74"/>
+    <connection t1="Raynet" t2="Vela"/>
+    <connection t1="S53" t2="S40"/>
+    <connection t1="S53" t2="S52"/>
+    <connection t1="S53" t2="Camelopardalis"/>
+    <connection t1="S53" t2="Achernar"/>
+    <connection t1="S53" t2="Mensae"/>
+    <connection t1="S52" t2="Mensae"/>
+    <connection t1="S55" t2="S45"/>
+    <connection t1="S55" t2="S54"/>
+    <connection t1="S55" t2="S57"/>
+    <connection t1="S55" t2="S56"/>
+    <connection t1="S55" t2="Piscium"/>
+    <connection t1="S55" t2="Puppis"/>
+    <connection t1="S54" t2="Sagitarii"/>
+    <connection t1="S54" t2="Kepler"/>
+    <connection t1="S56" t2="Piscium"/>
+    <connection t1="S56" t2="Aldebaran"/>
+    <connection t1="S56" t2="Hyginus"/>
+    <connection t1="S59" t2="S60"/>
+    <connection t1="S59" t2="S63"/>
+    <connection t1="S59" t2="Virginis"/>
+    <connection t1="S59" t2="Volantis"/>
+    <connection t1="S59" t2="Bootis"/>
+    <connection t1="Muscae" t2="S2"/>
+    <connection t1="Muscae" t2="S3"/>
+    <connection t1="Muscae" t2="Octantis"/>
+    <connection t1="Muscae" t2="S12"/>
+    <connection t1="Muscae" t2="S15"/>
+    <connection t1="S4" t2="S5"/>
+    <connection t1="S4" t2="Antilae"/>
+    <connection t1="S4" t2="Klystron"/>
+    <connection t1="S4" t2="Fomalhaut"/>
+    <connection t1="S4" t2="Microscopii"/>
+    <connection t1="S5" t2="Microscopii"/>
+    <connection t1="S6" t2="S5"/>
+    <connection t1="S6" t2="S7"/>
+    <connection t1="S6" t2="Fomalhaut"/>
+    <connection t1="S6" t2="Menkar"/>
+    <connection t1="S7" t2="Lipi"/>
+    <connection t1="S7" t2="WH-N"/>
+    <connection t1="S7" t2="Fomalhaut"/>
+    <connection t1="S8" t2="Lipi"/>
+    <connection t1="S60" t2="S63"/>
+    <connection t1="S60" t2="Saurus"/>
+    <connection t1="S60" t2="Rigel"/>
+    <connection t1="S60" t2="Virginis"/>
+    <connection t1="S60" t2="Herculis"/>
+    <connection t1="Pyxidis" t2="Phoenicis"/>
+    <connection t1="Pyxidis" t2="S33"/>
+    <connection t1="Pyxidis" t2="S32"/>
+    <connection t1="Pyxidis" t2="S34"/>
+    <connection t1="S64" t2="S65"/>
+    <connection t1="S64" t2="Wolf"/>
+    <connection t1="S64" t2="Sirius"/>
+    <connection t1="S64" t2="Canopus"/>
+    <connection t1="S63" t2="Wolf"/>
+    <connection t1="S63" t2="Rigel"/>
+    <connection t1="S63" t2="Volantis"/>
+    <connection t1="S65" t2="Mira"/>
+    <connection t1="S68" t2="S77"/>
+    <connection t1="S68" t2="Sagitarii"/>
+    <connection t1="Saurus" t2="S65"/>
+    <connection t1="Wolf" t2="S72"/>
+    <connection t1="Wolf" t2="Sirius"/>
+    <connection t1="Wolf" t2="Rigel"/>
+    <connection t1="Wolf" t2="Volantis"/>
+    <connection t1="WH-H" t2="S79"/>
+    <connection t1="WH-H" t2="S78"/>
+    <connection t1="WH-H" t2="Alcor"/>
+    <connection t1="WH-H" t2="Trianguli"/>
+    <connection t1="S73" t2="S74"/>
+    <connection t1="S73" t2="Caeli"/>
+    <connection t1="S73" t2="Lyrae"/>
+    <connection t1="S72" t2="Mizar"/>
+    <connection t1="S72" t2="Krueger"/>
+    <connection t1="S72" t2="Sirius"/>
+    <connection t1="S72" t2="Giclas"/>
+    <connection t1="S72" t2="Lacaille"/>
+    <connection t1="S75" t2="S76"/>
+    <connection t1="S74" t2="S84"/>
+    <connection t1="S74" t2="Vela"/>
+    <connection t1="S74" t2="Caeli"/>
+    <connection t1="Lipi" t2="Fornacis"/>
+    <connection t1="Lipi" t2="Menkar"/>
+    <connection t1="S77" t2="S78"/>
+    <connection t1="S77" t2="Hyperion"/>
+    <connection t1="S77" t2="Scorpii"/>
+    <connection t1="S76" t2="S85"/>
+    <connection t1="S76" t2="Sculptoris"/>
+    <connection t1="S76" t2="Hyperion"/>
+    <connection t1="S76" t2="Scuti"/>
+    <connection t1="S79" t2="Trianguli"/>
+    <connection t1="Cygnus" t2="Telescopii"/>
+    <connection t1="Cygnus" t2="S24"/>
+    <connection t1="Cygnus" t2="S35"/>
+    <connection t1="Cygnus" t2="S37"/>
+    <connection t1="Cygnus" t2="S36"/>
+    <connection t1="Cygnus" t2="S38"/>
+    <connection t1="S78" t2="S79"/>
+    <connection t1="S78" t2="S86"/>
+    <connection t1="S78" t2="Trianguli"/>
+    <connection t1="S78" t2="Hyperion"/>
+    <connection t1="S78" t2="Organnon"/>
+    <connection t1="WH-M" t2="S40"/>
+    <connection t1="WH-M" t2="Capricorni"/>
+    <connection t1="WH-M" t2="S26"/>
+    <connection t1="WH-N" t2="Doradus"/>
+    <connection t1="WH-N" t2="Fomalhaut"/>
+    <connection t1="WH-N" t2="Chameleonis"/>
+    <connection t1="WH-N" t2="S13"/>
+    <connection t1="WH-O" t2="Arcturus"/>
+    <connection t1="WH-O" t2="S22"/>
+    <connection t1="WH-O" t2="S23"/>
+    <connection t1="WH-O" t2="S31"/>
+    <connection t1="WH-O" t2="S33"/>
+    <connection t1="S80" t2="Deneb"/>
+    <connection t1="S80" t2="Giclas"/>
+    <connection t1="S80" t2="Ptolemae"/>
+    <connection t1="Sagittae" t2="Chandrasekhar"/>
+    <connection t1="Sagittae" t2="S24"/>
+    <connection t1="Sagittae" t2="S35"/>
+    <connection t1="S81" t2="Caeli"/>
+    <connection t1="S81" t2="Ptolemae"/>
+    <connection t1="S81" t2="Gorno"/>
+    <connection t1="S86" t2="S85"/>
+    <connection t1="S85" t2="Organnon"/>
+    <connection t1="Klystron" t2="S1"/>
+    <connection t1="Deneb" t2="S81"/>
+    <connection t1="Deneb" t2="Ptolemae"/>
+    <connection t1="Delphini" t2="Doradus"/>
+    <connection t1="Delphini" t2="S16"/>
+    <connection t1="Delphini" t2="S27"/>
+    <connection t1="Vela" t2="S65"/>
+    <connection t1="Vela" t2="Mira"/>
+    <connection t1="Fomalhaut" t2="S5"/>
+    <connection t1="Fomalhaut" t2="Draconis"/>
+    <connection t1="Fomalhaut" t2="S13"/>
+    <connection t1="Caeli" t2="Lyrae"/>
+    <connection t1="Caeli" t2="Ptolemae"/>
+    <connection t1="Caeli" t2="Gorno"/>
+    <connection t1="Camelopardalis" t2="S42"/>
+    <connection t1="Camelopardalis" t2="S43"/>
+    <connection t1="Camelopardalis" t2="S54"/>
+    <connection t1="Camelopardalis" t2="Kepler"/>
+    <connection t1="Aldebaran" t2="S45"/>
+    <connection t1="Aldebaran" t2="S55"/>
+    <connection t1="Achernar" t2="Copernicus"/>
+    <connection t1="Achernar" t2="Mensae"/>
+    <connection t1="Achernar" t2="Kepler"/>
+    <connection t1="Mersenne" t2="Octantis"/>
+    <connection t1="Mersenne" t2="S12"/>
+    <connection t1="Mersenne" t2="S16"/>
+    <connection t1="Mersenne" t2="S25"/>
+    <connection t1="Trianguli" t2="S86"/>
+    <connection t1="Rigel" t2="S64"/>
+    <connection t1="Rigel" t2="Saurus"/>
+    <connection t1="Lyrae" t2="Ptolemae"/>
+    <connection t1="Lyrae" t2="Canopus"/>
+    <connection t1="Virginis" t2="Bootis"/>
+    <connection t1="Virginis" t2="Tauri"/>
+    <connection t1="Monocerotis" t2="WH-N"/>
+    <connection t1="Monocerotis" t2="S13"/>
+    <connection t1="Monocerotis" t2="S16"/>
+    <connection t1="Arcturus" t2="S23"/>
+    <connection t1="Arcturus" t2="S33"/>
+    <connection t1="Arcturus" t2="S34"/>
+    <connection t1="Phoenicis" t2="Pictoris"/>
+    <connection t1="Phoenicis" t2="S34"/>
+    <connection t1="Menkar" t2="S5"/>
+    <connection t1="Pavonis" t2="Muscae"/>
+    <connection t1="Pavonis" t2="Ophiuchi"/>
+    <connection t1="Organnon" t2="S86"/>
+    <connection t1="Velorum" t2="S49"/>
+    <connection t1="Velorum" t2="S50"/>
+    <connection t1="Velorum" t2="S37"/>
+    <connection t1="Velorum" t2="S39"/>
+    <connection t1="Groombridge" t2="S11"/>
+    <connection t1="Groombridge" t2="S10"/>
+    <connection t1="Groombridge" t2="Aquilae"/>
+    <connection t1="Telescopii" t2="Tauri"/>
+    <connection t1="Telescopii" t2="S37"/>
+    <connection t1="Telescopii" t2="S36"/>
+    <connection t1="Kepler" t2="S53"/>
+    <connection t1="S11" t2="S10"/>
+    <connection t1="S13" t2="S16"/>
+    <connection t1="S15" t2="S14"/>
+    <connection t1="S16" t2="S25"/>
+    <connection t1="Columbae" t2="Circini"/>
+    <connection t1="Columbae" t2="S15"/>
+    <connection t1="Columbae" t2="S24"/>
+    <connection t1="Aquilae" t2="S8"/>
+    <connection t1="Hyginus" t2="S46"/>
+    <connection t1="S21" t2="Lacertae"/>
+    <connection t1="S24" t2="S35"/>
+    <connection t1="S24" t2="S38"/>
+    <connection t1="S26" t2="Delphini"/>
+    <connection t1="S26" t2="S25"/>
+    <connection t1="S26" t2="Caphei"/>
+    <connection t1="S25" t2="Delphini"/>
+    <connection t1="Canopus" t2="Raynet"/>
+    <connection t1="Canopus" t2="S73"/>
+    <connection t1="Canopus" t2="Sirius"/>
+    <connection t1="S31" t2="S22"/>
+    <connection t1="S31" t2="S33"/>
+    <connection t1="S31" t2="S32"/>
+    <connection t1="S33" t2="S32"/>
+    <connection t1="S33" t2="S34"/>
+    <connection t1="S32" t2="Hydrae"/>
+    <connection t1="Aurigae" t2="S68"/>
+    <connection t1="S35" t2="S36"/>
+    <connection t1="S35" t2="S38"/>
+    <connection t1="S37" t2="S39"/>
+    <connection t1="S37" t2="S38"/>
+    <connection t1="S39" t2="S38"/>
+  </map>
+  <resourceList>
+    <resource name="techTokens"/>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="Ur-Quan" optional="false"/>
+    <player name="Chmmr" optional="false"/>
+    <player name="Vux" optional="false"/>
+    <player name="Zeep-Zeep" optional="false"/>
+    <player name="Ilwrath" optional="false"/>
+    <player name="Pkunk" optional="false"/>
+    <player name="Spathi" optional="false"/>
+    <player name="ZoqFotPik" optional="false"/>
+    <player name="Umgah" optional="false"/>
+    <player name="Orz" optional="false"/>
+    <player name="Veep-Neep" optional="false"/>
+    <player name="Thraddash" optional="false"/>
+    <player name="Humans" optional="false"/>
+    <player name="Mycon" optional="false"/>
+    <player name="Utwig" optional="false"/>
+    <player name="Kor-Ah" optional="false"/>
+    <player name="Slylandro" optional="false"/>
+    <player name="Druuge" optional="false"/>
+    <player name="Space" optional="false"/>
+    <alliance player="Ur-Quan" alliance="Hierarchy"/>
+    <alliance player="Chmmr" alliance="Alliance"/>
+    <alliance player="Vux" alliance="Hierarchy"/>
+    <alliance player="Zeep-Zeep" alliance="Alliance"/>
+    <alliance player="Ilwrath" alliance="Hierarchy"/>
+    <alliance player="Pkunk" alliance="Alliance"/>
+    <alliance player="Spathi" alliance="Hierarchy"/>
+    <alliance player="ZoqFotPik" alliance="Alliance"/>
+    <alliance player="Umgah" alliance="Hierarchy"/>
+    <alliance player="Orz" alliance="Alliance"/>
+    <alliance player="Veep-Neep" alliance="Hierarchy"/>
+    <alliance player="Thraddash" alliance="Alliance"/>
+    <alliance player="Humans" alliance="Alliance"/>
+    <alliance player="Mycon" alliance="Hierarchy"/>
+    <alliance player="Utwig" alliance="Alliance"/>
+    <alliance player="Kor-Ah" alliance="Kor-Ah"/>
+    <alliance player="Slylandro" alliance="Slylandro"/>
+    <alliance player="Druuge" alliance="Druuge"/>
+    <alliance player="Space" alliance="Space"/>
+  </playerList>
+  <unitList>
+    <unit name="Dreadnought"/>
+    <unit name="Avenger"/>
+    <unit name="Cruiser"/>
+    <unit name="Terminator"/>
+    <unit name="Probe"/>
+    <unit name="Factory"/>
+    <unit name="Slaveshield"/>
+    <unit name="Avatar"/>
+    <unit name="Broodhome"/>
+    <unit name="X-Wing"/>
+    <unit name="Y-Wing"/>
+    <unit name="Mauler"/>
+    <unit name="Penetrator"/>
+    <unit name="Skiff"/>
+    <unit name="Marauder"/>
+    <unit name="Podship"/>
+    <unit name="Guardian"/>
+    <unit name="Nemesis"/>
+    <unit name="Fury"/>
+    <unit name="Trader"/>
+    <unit name="Eluder"/>
+    <unit name="Torch"/>
+    <unit name="Drone"/>
+    <unit name="Blade"/>
+    <unit name="Jugger"/>
+    <unit name="Intruder"/>
+    <unit name="Scout"/>
+    <unit name="Stinger"/>
+    <unit name="OrbitalDefense"/>
+    <unit name="SaMatra"/>
+    <unit name="Fighter"/>
+    <unit name="Marine"/>
+    <unit name="Vindicator"/>
+    <unit name="ZEX"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="ur-quanBid" delegate="bid" player="Ur-Quan" maxRunCount="1"/>
+      <step name="ur-quanBidPlace" delegate="placeBid" player="Ur-Quan" maxRunCount="1"/>
+      <step name="chmmrBid" delegate="bid" player="Chmmr" maxRunCount="1"/>
+      <step name="chmmrBidPlace" delegate="placeBid" player="Chmmr" maxRunCount="1"/>
+      <step name="vuxBid" delegate="bid" player="Vux" maxRunCount="1"/>
+      <step name="vuxBidPlace" delegate="placeBid" player="Vux" maxRunCount="1"/>
+      <step name="zeep-zeepBid" delegate="bid" player="Zeep-Zeep" maxRunCount="1"/>
+      <step name="zeep-zeepBidPlace" delegate="placeBid" player="Zeep-Zeep" maxRunCount="1"/>
+      <step name="IlwrathBid" delegate="bid" player="Ilwrath" maxRunCount="1"/>
+      <step name="IlwrathBidPlace" delegate="placeBid" player="Ilwrath" maxRunCount="1"/>
+      <step name="pkunkBid" delegate="bid" player="Pkunk" maxRunCount="1"/>
+      <step name="pkunkBidPlace" delegate="placeBid" player="Pkunk" maxRunCount="1"/>
+      <step name="spathiBid" delegate="bid" player="Spathi" maxRunCount="1"/>
+      <step name="spathiBidPlace" delegate="placeBid" player="Spathi" maxRunCount="1"/>
+      <step name="zoqfotpikBid" delegate="bid" player="ZoqFotPik" maxRunCount="1"/>
+      <step name="zoqfotpikBidPlace" delegate="placeBid" player="ZoqFotPik" maxRunCount="1"/>
+      <step name="umgahBid" delegate="bid" player="Umgah" maxRunCount="1"/>
+      <step name="umgahBidPlace" delegate="placeBid" player="Umgah" maxRunCount="1"/>
+      <step name="orzBid" delegate="bid" player="Orz" maxRunCount="1"/>
+      <step name="orzBidPlace" delegate="placeBid" player="Orz" maxRunCount="1"/>
+      <step name="veep-neepBid" delegate="bid" player="Veep-Neep" maxRunCount="1"/>
+      <step name="veep-neepBidPlace" delegate="placeBid" player="Veep-Neep" maxRunCount="1"/>
+      <step name="thraddashBid" delegate="bid" player="Thraddash" maxRunCount="1"/>
+      <step name="thraddashBidPlace" delegate="placeBid" player="Thraddash" maxRunCount="1"/>
+      <step name="humansBid" delegate="bid" player="Humans" maxRunCount="1"/>
+      <step name="humansBidPlace" delegate="placeBid" player="Humans" maxRunCount="1"/>
+      <step name="myconBid" delegate="bid" player="Mycon" maxRunCount="1"/>
+      <step name="myconBidPlace" delegate="placeBid" player="Mycon" maxRunCount="1"/>
+      <step name="utwigBid" delegate="bid" player="Utwig" maxRunCount="1"/>
+      <step name="utwigBidPlace" delegate="placeBid" player="Utwig" maxRunCount="1"/>
+      <step name="kor-ahBid" delegate="bid" player="Kor-Ah" maxRunCount="1"/>
+      <step name="kor-ahBidPlace" delegate="placeBid" player="Kor-Ah" maxRunCount="1"/>
+      <step name="slylandroBid" delegate="bid" player="Slylandro" maxRunCount="1"/>
+      <step name="slylandroBidPlace" delegate="placeBid" player="Slylandro" maxRunCount="1"/>
+      <step name="DruugeBid" delegate="bid" player="Druuge" maxRunCount="1"/>
+      <step name="DruugeBidPlace" delegate="placeBid" player="Druuge" maxRunCount="1"/>
+      <step name="spaceBid" delegate="bid" player="Space" maxRunCount="1"/>
+      <step name="spaceBidPlace" delegate="placeBid" player="Space" maxRunCount="1"/>
+      <step name="ur-quanPurchase" delegate="purchase" player="Ur-Quan"/>
+      <step name="ur-quanCombatMove" delegate="move" player="Ur-Quan"/>
+      <step name="ur-quanBattle" delegate="battle" player="Ur-Quan"/>
+      <step name="ur-quanNonCombatMove" delegate="move" player="Ur-Quan" display="Non Combat Move"/>
+      <step name="ur-quanPlace" delegate="place" player="Ur-Quan"/>
+      <step name="ur-quanEndTurn" delegate="endTurn" player="Ur-Quan"/>
+      <step name="chmmrPurchase" delegate="purchase" player="Chmmr"/>
+      <step name="chmmrCombatMove" delegate="move" player="Chmmr"/>
+      <step name="chmmrBattle" delegate="battle" player="Chmmr"/>
+      <step name="chmmrNonCombatMove" delegate="move" player="Chmmr" display="Non Combat Move"/>
+      <step name="chmmrPlace" delegate="place" player="Chmmr"/>
+      <step name="chmmrEndTurn" delegate="endTurn" player="Chmmr"/>
+      <step name="vuxPurchase" delegate="purchase" player="Vux"/>
+      <step name="vuxCombatMove" delegate="move" player="Vux"/>
+      <step name="vuxBattle" delegate="battle" player="Vux"/>
+      <step name="vuxNonCombatMove" delegate="move" player="Vux" display="Non Combat Move"/>
+      <step name="vuxPlace" delegate="place" player="Vux"/>
+      <step name="vuxEndTurn" delegate="endTurn" player="Vux"/>
+      <step name="zeep-zeepPurchase" delegate="purchase" player="Zeep-Zeep"/>
+      <step name="zeep-zeepCombatMove" delegate="move" player="Zeep-Zeep"/>
+      <step name="zeep-zeepBattle" delegate="battle" player="Zeep-Zeep"/>
+      <step name="zeep-zeepNonCombatMove" delegate="move" player="Zeep-Zeep" display="Non Combat Move"/>
+      <step name="zeep-zeepPlace" delegate="place" player="Zeep-Zeep"/>
+      <step name="zeep-zeepEndTurn" delegate="endTurn" player="Zeep-Zeep"/>
+      <step name="IlwrathPurchase" delegate="purchase" player="Ilwrath"/>
+      <step name="IlwrathCombatMove" delegate="move" player="Ilwrath"/>
+      <step name="IlwrathBattle" delegate="battle" player="Ilwrath"/>
+      <step name="IlwrathNonCombatMove" delegate="move" player="Ilwrath" display="Non Combat Move"/>
+      <step name="IlwrathPlace" delegate="place" player="Ilwrath"/>
+      <step name="IlwrathEndTurn" delegate="endTurn" player="Ilwrath"/>
+      <step name="pkunkPurchase" delegate="purchase" player="Pkunk"/>
+      <step name="pkunkCombatMove" delegate="move" player="Pkunk"/>
+      <step name="pkunkBattle" delegate="battle" player="Pkunk"/>
+      <step name="pkunkNonCombatMove" delegate="move" player="Pkunk" display="Non Combat Move"/>
+      <step name="pkunkPlace" delegate="place" player="Pkunk"/>
+      <step name="pkunkEndTurn" delegate="endTurn" player="Pkunk"/>
+      <step name="spathiPurchase" delegate="purchase" player="Spathi"/>
+      <step name="spathiCombatMove" delegate="move" player="Spathi"/>
+      <step name="spathiBattle" delegate="battle" player="Spathi"/>
+      <step name="spathiNonCombatMove" delegate="move" player="Spathi" display="Non Combat Move"/>
+      <step name="spathiPlace" delegate="place" player="Spathi"/>
+      <step name="spathiEndTurn" delegate="endTurn" player="Spathi"/>
+      <step name="zoqfotpikPurchase" delegate="purchase" player="ZoqFotPik"/>
+      <step name="zoqfotpikCombatMove" delegate="move" player="ZoqFotPik"/>
+      <step name="zoqfotpikBattle" delegate="battle" player="ZoqFotPik"/>
+      <step name="zoqfotpikNonCombatMove" delegate="move" player="ZoqFotPik" display="Non Combat Move"/>
+      <step name="zoqfotpikPlace" delegate="place" player="ZoqFotPik"/>
+      <step name="zoqfotpikEndTurn" delegate="endTurn" player="ZoqFotPik"/>
+      <step name="umgahPurchase" delegate="purchase" player="Umgah"/>
+      <step name="umgahCombatMove" delegate="move" player="Umgah"/>
+      <step name="umgahBattle" delegate="battle" player="Umgah"/>
+      <step name="umgahNonCombatMove" delegate="move" player="Umgah" display="Non Combat Move"/>
+      <step name="umgahPlace" delegate="place" player="Umgah"/>
+      <step name="umgahEndTurn" delegate="endTurn" player="Umgah"/>
+      <step name="orzPurchase" delegate="purchase" player="Orz"/>
+      <step name="orzCombatMove" delegate="move" player="Orz"/>
+      <step name="orzBattle" delegate="battle" player="Orz"/>
+      <step name="orzNonCombatMove" delegate="move" player="Orz" display="Non Combat Move"/>
+      <step name="orzPlace" delegate="place" player="Orz"/>
+      <step name="orzEndTurn" delegate="endTurn" player="Orz"/>
+      <step name="veep-neepPurchase" delegate="purchase" player="Veep-Neep"/>
+      <step name="veep-neepCombatMove" delegate="move" player="Veep-Neep"/>
+      <step name="veep-neepBattle" delegate="battle" player="Veep-Neep"/>
+      <step name="veep-neepNonCombatMove" delegate="move" player="Veep-Neep" display="Non Combat Move"/>
+      <step name="veep-neepPlace" delegate="place" player="Veep-Neep"/>
+      <step name="veep-neepEndTurn" delegate="endTurn" player="Veep-Neep"/>
+      <step name="thraddashPurchase" delegate="purchase" player="Thraddash"/>
+      <step name="thraddashCombatMove" delegate="move" player="Thraddash"/>
+      <step name="thraddashBattle" delegate="battle" player="Thraddash"/>
+      <step name="thraddashNonCombatMove" delegate="move" player="Thraddash" display="Non Combat Move"/>
+      <step name="thraddashPlace" delegate="place" player="Thraddash"/>
+      <step name="thraddashEndTurn" delegate="endTurn" player="Thraddash"/>
+      <step name="humansPurchase" delegate="purchase" player="Humans"/>
+      <step name="humansCombatMove" delegate="move" player="Humans"/>
+      <step name="humansBattle" delegate="battle" player="Humans"/>
+      <step name="humansNonCombatMove" delegate="move" player="Humans" display="Non Combat Move"/>
+      <step name="humansPlace" delegate="place" player="Humans"/>
+      <step name="humansEndTurn" delegate="endTurn" player="Humans"/>
+      <step name="myconPurchase" delegate="purchase" player="Mycon"/>
+      <step name="myconCombatMove" delegate="move" player="Mycon"/>
+      <step name="myconBattle" delegate="battle" player="Mycon"/>
+      <step name="myconNonCombatMove" delegate="move" player="Mycon" display="Non Combat Move"/>
+      <step name="myconPlace" delegate="place" player="Mycon"/>
+      <step name="myconEndTurn" delegate="endTurn" player="Mycon"/>
+      <step name="utwigPurchase" delegate="purchase" player="Utwig"/>
+      <step name="utwigCombatMove" delegate="move" player="Utwig"/>
+      <step name="utwigBattle" delegate="battle" player="Utwig"/>
+      <step name="utwigNonCombatMove" delegate="move" player="Utwig" display="Non Combat Move"/>
+      <step name="utwigPlace" delegate="place" player="Utwig"/>
+      <step name="utwigEndTurn" delegate="endTurn" player="Utwig"/>
+      <step name="kor-ahPurchase" delegate="purchase" player="Kor-Ah"/>
+      <step name="kor-ahCombatMove" delegate="move" player="Kor-Ah"/>
+      <step name="kor-ahBattle" delegate="battle" player="Kor-Ah"/>
+      <step name="kor-ahNonCombatMove" delegate="move" player="Kor-Ah" display="Non Combat Move"/>
+      <step name="kor-ahPlace" delegate="place" player="Kor-Ah"/>
+      <step name="kor-ahEndTurn" delegate="endTurn" player="Kor-Ah"/>
+      <step name="slylandroPurchase" delegate="purchase" player="Slylandro"/>
+      <step name="slylandroCombatMove" delegate="move" player="Slylandro"/>
+      <step name="slylandroBattle" delegate="battle" player="Slylandro"/>
+      <step name="slylandroNonCombatMove" delegate="move" player="Slylandro" display="Non Combat Move"/>
+      <step name="slylandroPlace" delegate="place" player="Slylandro"/>
+      <step name="slylandroEndTurn" delegate="endTurn" player="Slylandro"/>
+      <step name="DruugePurchase" delegate="purchase" player="Druuge"/>
+      <step name="DruugeCombatMove" delegate="move" player="Druuge"/>
+      <step name="DruugeBattle" delegate="battle" player="Druuge"/>
+      <step name="DruugeNonCombatMove" delegate="move" player="Druuge" display="Non Combat Move"/>
+      <step name="DruugePlace" delegate="place" player="Druuge"/>
+      <step name="DruugeEndTurn" delegate="endTurn" player="Druuge"/>
+      <step name="spacePurchase" delegate="purchase" player="Space"/>
+      <step name="spaceCombatMove" delegate="move" player="Space"/>
+      <step name="spaceBattle" delegate="battle" player="Space"/>
+      <step name="spaceNonCombatMove" delegate="move" player="Space" display="Non Combat Move"/>
+      <step name="spacePlace" delegate="place" player="Space"/>
+      <step name="spaceEndTurn" delegate="endTurn" player="Space"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyDreadnought">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Dreadnought" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAvenger">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="Avenger" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiser">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="Cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTerminator">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="Terminator" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyProbe">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="Probe" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="Factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySlaveshield">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="Slaveshield" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAvatar">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Avatar" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBroodhome">
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="Broodhome" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyX-Wing">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="X-Wing" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyY-Wing">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="Y-Wing" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyMauler">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="Mauler" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyPenetrator">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="Penetrator" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySkiff">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="Skiff" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyMarauder">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Marauder" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyPodship">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="Podship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyGuardian">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="Guardian" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyNemesis">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="Nemesis" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFury">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="Fury" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTrader">
+      <cost resource="PUs" quantity="222"/>
+      <result resourceOrUnit="Trader" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyEluder">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="Eluder" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTorch">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="Torch" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDrone">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Drone" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBlade">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="Blade" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyJugger">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="Jugger" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyIntruder">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="Intruder" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyScout">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Scout" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyStinger">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Stinger" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyOrbitalDefense">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="OrbitalDefense" quantity="2"/>
+    </productionRule>
+    <productionRule name="buySaMatra">
+      <cost resource="PUs" quantity="200"/>
+      <result resourceOrUnit="SaMatra" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighter">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="Fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyMarine">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Marine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyVindicator">
+      <cost resource="PUs" quantity="200"/>
+      <result resourceOrUnit="Vindicator" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyZEX">
+      <cost resource="PUs" quantity="200"/>
+      <result resourceOrUnit="ZEX" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="Ur-QuanFrontier">
+      <frontierRules name="buyDreadnought"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyOrbitalDefense"/>
+      <frontierRules name="buyFighter"/>
+    </productionFrontier>
+    <productionFrontier name="HumansFrontier">
+      <frontierRules name="buyCruiser"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buySkiff"/>
+      <frontierRules name="buyPenetrator"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="IlwrathFrontier">
+      <frontierRules name="buyAvenger"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="Zeep-ZeepFrontier">
+      <frontierRules name="buyTerminator"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyScout"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="SlylandroFrontier">
+      <frontierRules name="buyProbe"/>
+      <frontierRules name="buyTrader"/>
+    </productionFrontier>
+    <productionFrontier name="ThraddashFrontier">
+      <frontierRules name="buyTorch"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="PkunkFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyFury"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="UmgahFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyDrone"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="UtwigFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyBlade"/>
+      <frontierRules name="buyJugger"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="VuxFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyIntruder"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="OrzFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyGuardian"/>
+      <frontierRules name="buyNemesis"/>
+      <frontierRules name="buyOrbitalDefense"/>
+      <frontierRules name="buyMarine"/>
+    </productionFrontier>
+    <productionFrontier name="Veep-NeepFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyTerminator"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="MyconFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyPodship"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="ChmmrFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyAvatar"/>
+      <frontierRules name="buyBroodhome"/>
+      <frontierRules name="buyX-Wing"/>
+      <frontierRules name="buyY-Wing"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="SpathiFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyEluder"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="ZoqFotPikFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyStinger"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="Kor-AhFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyMarauder"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="DruugeFrontier">
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buySlaveshield"/>
+      <frontierRules name="buyMauler"/>
+      <frontierRules name="buyOrbitalDefense"/>
+    </productionFrontier>
+    <productionFrontier name="SpaceFrontier">
+      <frontierRules name="buySlaveshield"/>
+    </productionFrontier>
+    <playerProduction player="Ur-Quan" frontier="Ur-QuanFrontier"/>
+    <playerProduction player="Humans" frontier="HumansFrontier"/>
+    <playerProduction player="Ilwrath" frontier="IlwrathFrontier"/>
+    <playerProduction player="Zeep-Zeep" frontier="Zeep-ZeepFrontier"/>
+    <playerProduction player="Slylandro" frontier="SlylandroFrontier"/>
+    <playerProduction player="Thraddash" frontier="ThraddashFrontier"/>
+    <playerProduction player="Pkunk" frontier="PkunkFrontier"/>
+    <playerProduction player="Umgah" frontier="UmgahFrontier"/>
+    <playerProduction player="Utwig" frontier="UtwigFrontier"/>
+    <playerProduction player="Vux" frontier="VuxFrontier"/>
+    <playerProduction player="Orz" frontier="OrzFrontier"/>
+    <playerProduction player="Veep-Neep" frontier="Veep-NeepFrontier"/>
+    <playerProduction player="Mycon" frontier="MyconFrontier"/>
+    <playerProduction player="Chmmr" frontier="ChmmrFrontier"/>
+    <playerProduction player="Spathi" frontier="SpathiFrontier"/>
+    <playerProduction player="ZoqFotPik" frontier="ZoqFotPikFrontier"/>
+    <playerProduction player="Kor-Ah" frontier="Kor-AhFrontier"/>
+    <playerProduction player="Druuge" frontier="DruugeFrontier"/>
+    <playerProduction player="Space" frontier="SpaceFrontier"/>
+  </production>
+  <attatchmentList>
+    <attatchment name="unitAttatchment" attatchTo="Dreadnought" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="5"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Avenger" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Terminator" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Probe" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Slaveshield" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="defense" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Avatar" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Broodhome" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="5"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="X-Wing" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Y-Wing" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Mauler" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Penetrator" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Skiff" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Marauder" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Podship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
+      <option name="hitPoints" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Guardian" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="3"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Nemesis" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Fury" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="hitPoints" value="2"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Trader" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Eluder" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="4"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Torch" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Drone" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Blade" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Jugger" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Intruder" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+      <option name="artillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Scout" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Stinger" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="OrbitalDefense" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="SaMatra" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="15"/>
+      <option name="defense" value="15"/>
+      <option name="hitPoints" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="isAir" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Marine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="isAir" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Vindicator" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="6"/>
+      <option name="hitPoints" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="ZEX" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="artillery" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Geminorum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S41" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S43" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Crateris" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="capital" value="Ur-Quan"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Altair" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Antares" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Doradus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Eridani" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lentilis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chameleonis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Metis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Crucis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Equulei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S17" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S28" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S27" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cancri" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Maksutov" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Procyon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="9"/>
+      <option name="capital" value="Chmmr"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Regulus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sextantis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S66" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S67" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Luyten" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Vux"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S84" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Indi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cerenkov" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S82" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S83" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Capella" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Zeep-Zeep"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gorno" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mizar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Volantis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bootis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tauri" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Ilwrath"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Olber" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Krueger" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Pkunk"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Giclas" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lacaille" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Illuminati" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ceti" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vitalis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Herculis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gruis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Spathi"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Squidi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tucanae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="capital" value="ZoqFotPik"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cassiopiea" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Carinae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Caphei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Normae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Orionis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Umgah"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Octantis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S61" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mira" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mensae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vulpeculae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Orz"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pollux" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Serpentis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Veep-Neep"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Scuti" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Antilae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Draconis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Thraddash"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S12" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Apodis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Circini" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Betelgeuse" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sirius" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Humans"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chandrasekhar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arianni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S62" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bellatrix" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sculptoris" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Copernicus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hyperion" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sagitarii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Brahe" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Scorpii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="9"/>
+      <option name="capital" value="Mycon"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Librae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Aquarii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="capital" value="Utwig"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hyades" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S10" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S9" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hydrae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Leonis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fornacis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Andromedae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+      <option name="capital" value="Kor-Ah"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Reticuli" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Horologii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S18" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S20" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S22" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Leporis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S23" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S29" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S30" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Centauri" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lyncis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Capricorni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ophiuchi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vega" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Slylandro"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Persei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="9"/>
+      <option name="capital" value="Druuge"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S57" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S58" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S69" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Piscium" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="WH-E" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S71" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S70" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arietis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Almagest" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Algol" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pictoris" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Puppis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pegasi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S40" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S42" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S44" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S46" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S45" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S48" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S47" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S49" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S51" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S50" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Raynet" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S53" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S52" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S55" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S54" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S56" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S59" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Muscae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S6" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S7" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S8" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S60" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pyxidis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S64" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S63" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S65" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S68" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Saurus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Wolf" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="WH-H" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="capital" value="Space"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S73" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S72" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S75" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S74" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lipi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S77" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S76" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S79" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cygnus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S78" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="WH-M" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="WH-N" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="WH-O" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S80" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sagittae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S81" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S86" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S85" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Alcor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Klystron" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Deneb" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Delphini" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vela" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fomalhaut" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Caeli" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Camelopardalis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Aldebaran" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Achernar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mersenne" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Trianguli" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rigel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lyrae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Virginis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Monocerotis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arcturus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Phoenicis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Menkar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pavonis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Organnon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Velorum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ptolemae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Groombridge" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Telescopii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kepler" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S11" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S13" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S15" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S14" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S16" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Columbae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Aquilae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hyginus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S21" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S24" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S26" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lacertae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S25" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Canopus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Microscopii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S31" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S33" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S32" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Aurigae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S35" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S34" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S37" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S36" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S39" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S38" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="Geminorum" owner="Ur-Quan"/>
+      <territoryOwner territory="S41" owner="Ur-Quan"/>
+      <territoryOwner territory="S43" owner="Ur-Quan"/>
+      <territoryOwner territory="Crateris" owner="Ur-Quan"/>
+      <territoryOwner territory="Altair" owner="Ur-Quan"/>
+      <territoryOwner territory="Antares" owner="Ur-Quan"/>
+      <territoryOwner territory="Doradus" owner="Ur-Quan"/>
+      <territoryOwner territory="Eridani" owner="Ur-Quan"/>
+      <territoryOwner territory="Lentilis" owner="Ur-Quan"/>
+      <territoryOwner territory="Chameleonis" owner="Ur-Quan"/>
+      <territoryOwner territory="Metis" owner="Ur-Quan"/>
+      <territoryOwner territory="Crucis" owner="Ur-Quan"/>
+      <territoryOwner territory="Equulei" owner="Ur-Quan"/>
+      <territoryOwner territory="S17" owner="Ur-Quan"/>
+      <territoryOwner territory="S28" owner="Ur-Quan"/>
+      <territoryOwner territory="S27" owner="Ur-Quan"/>
+      <territoryOwner territory="Cancri" owner="Ur-Quan"/>
+      <territoryOwner territory="Maksutov" owner="Ur-Quan"/>
+      <territoryOwner territory="Procyon" owner="Chmmr"/>
+      <territoryOwner territory="Regulus" owner="Vux"/>
+      <territoryOwner territory="Sextantis" owner="Vux"/>
+      <territoryOwner territory="S66" owner="Vux"/>
+      <territoryOwner territory="S67" owner="Vux"/>
+      <territoryOwner territory="Luyten" owner="Vux"/>
+      <territoryOwner territory="S84" owner="Vux"/>
+      <territoryOwner territory="Indi" owner="Vux"/>
+      <territoryOwner territory="Cerenkov" owner="Vux"/>
+      <territoryOwner territory="S82" owner="Zeep-Zeep"/>
+      <territoryOwner territory="S83" owner="Zeep-Zeep"/>
+      <territoryOwner territory="Capella" owner="Zeep-Zeep"/>
+      <territoryOwner territory="Gorno" owner="Zeep-Zeep"/>
+      <territoryOwner territory="Mizar" owner="Ilwrath"/>
+      <territoryOwner territory="Volantis" owner="Ilwrath"/>
+      <territoryOwner territory="Bootis" owner="Ilwrath"/>
+      <territoryOwner territory="Tauri" owner="Ilwrath"/>
+      <territoryOwner territory="Olber" owner="Ilwrath"/>
+      <territoryOwner territory="Krueger" owner="Pkunk"/>
+      <territoryOwner territory="Giclas" owner="Pkunk"/>
+      <territoryOwner territory="Lacaille" owner="Pkunk"/>
+      <territoryOwner territory="Illuminati" owner="Spathi"/>
+      <territoryOwner territory="Ceti" owner="Spathi"/>
+      <territoryOwner territory="Vitalis" owner="Spathi"/>
+      <territoryOwner territory="Herculis" owner="Spathi"/>
+      <territoryOwner territory="Gruis" owner="Spathi"/>
+      <territoryOwner territory="Squidi" owner="Spathi"/>
+      <territoryOwner territory="Tucanae" owner="ZoqFotPik"/>
+      <territoryOwner territory="Cassiopiea" owner="ZoqFotPik"/>
+      <territoryOwner territory="Carinae" owner="ZoqFotPik"/>
+      <territoryOwner territory="Caphei" owner="ZoqFotPik"/>
+      <territoryOwner territory="Normae" owner="Umgah"/>
+      <territoryOwner territory="Orionis" owner="Umgah"/>
+      <territoryOwner territory="Octantis" owner="Umgah"/>
+      <territoryOwner territory="S61" owner="Orz"/>
+      <territoryOwner territory="Mira" owner="Orz"/>
+      <territoryOwner territory="Mensae" owner="Orz"/>
+      <territoryOwner territory="Vulpeculae" owner="Orz"/>
+      <territoryOwner territory="Pollux" owner="Veep-Neep"/>
+      <territoryOwner territory="Serpentis" owner="Veep-Neep"/>
+      <territoryOwner territory="Scuti" owner="Veep-Neep"/>
+      <territoryOwner territory="S3" owner="Thraddash"/>
+      <territoryOwner territory="Antilae" owner="Thraddash"/>
+      <territoryOwner territory="Draconis" owner="Thraddash"/>
+      <territoryOwner territory="S12" owner="Thraddash"/>
+      <territoryOwner territory="Apodis" owner="Thraddash"/>
+      <territoryOwner territory="Circini" owner="Humans"/>
+      <territoryOwner territory="Betelgeuse" owner="Humans"/>
+      <territoryOwner territory="Sirius" owner="Humans"/>
+      <territoryOwner territory="Chandrasekhar" owner="Humans"/>
+      <territoryOwner territory="Arianni" owner="Mycon"/>
+      <territoryOwner territory="S62" owner="Mycon"/>
+      <territoryOwner territory="Bellatrix" owner="Mycon"/>
+      <territoryOwner territory="Sculptoris" owner="Mycon"/>
+      <territoryOwner territory="Copernicus" owner="Mycon"/>
+      <territoryOwner territory="Hyperion" owner="Mycon"/>
+      <territoryOwner territory="Sagitarii" owner="Mycon"/>
+      <territoryOwner territory="Brahe" owner="Mycon"/>
+      <territoryOwner territory="Scorpii" owner="Mycon"/>
+      <territoryOwner territory="Librae" owner="Utwig"/>
+      <territoryOwner territory="Aquarii" owner="Utwig"/>
+      <territoryOwner territory="Hyades" owner="Utwig"/>
+      <territoryOwner territory="S10" owner="Utwig"/>
+      <territoryOwner territory="S9" owner="Kor-Ah"/>
+      <territoryOwner territory="Hydrae" owner="Kor-Ah"/>
+      <territoryOwner territory="Leonis" owner="Kor-Ah"/>
+      <territoryOwner territory="Fornacis" owner="Kor-Ah"/>
+      <territoryOwner territory="Andromedae" owner="Kor-Ah"/>
+      <territoryOwner territory="Reticuli" owner="Kor-Ah"/>
+      <territoryOwner territory="Horologii" owner="Kor-Ah"/>
+      <territoryOwner territory="S18" owner="Kor-Ah"/>
+      <territoryOwner territory="S20" owner="Kor-Ah"/>
+      <territoryOwner territory="S22" owner="Kor-Ah"/>
+      <territoryOwner territory="Leporis" owner="Kor-Ah"/>
+      <territoryOwner territory="S23" owner="Kor-Ah"/>
+      <territoryOwner territory="S29" owner="Kor-Ah"/>
+      <territoryOwner territory="S30" owner="Kor-Ah"/>
+      <territoryOwner territory="Centauri" owner="Slylandro"/>
+      <territoryOwner territory="S1" owner="Slylandro"/>
+      <territoryOwner territory="S2" owner="Slylandro"/>
+      <territoryOwner territory="Lyncis" owner="Slylandro"/>
+      <territoryOwner territory="Capricorni" owner="Slylandro"/>
+      <territoryOwner territory="Ophiuchi" owner="Slylandro"/>
+      <territoryOwner territory="Vega" owner="Slylandro"/>
+      <territoryOwner territory="Persei" owner="Druuge"/>
+      <territoryOwner territory="S57" owner="Druuge"/>
+      <territoryOwner territory="S58" owner="Druuge"/>
+      <territoryOwner territory="S69" owner="Druuge"/>
+      <territoryOwner territory="Piscium" owner="Druuge"/>
+      <territoryOwner territory="WH-E" owner="Druuge"/>
+      <territoryOwner territory="S71" owner="Druuge"/>
+      <territoryOwner territory="S70" owner="Druuge"/>
+      <territoryOwner territory="Arietis" owner="Druuge"/>
+      <territoryOwner territory="Almagest" owner="Druuge"/>
+      <territoryOwner territory="Algol" owner="Druuge"/>
+      <territoryOwner territory="Pictoris" owner="Druuge"/>
+      <territoryOwner territory="Puppis" owner="Druuge"/>
+      <territoryOwner territory="Pegasi" owner="Space"/>
+      <territoryOwner territory="S40" owner="Space"/>
+      <territoryOwner territory="S42" owner="Space"/>
+      <territoryOwner territory="S44" owner="Space"/>
+      <territoryOwner territory="S46" owner="Space"/>
+      <territoryOwner territory="S45" owner="Space"/>
+      <territoryOwner territory="S48" owner="Space"/>
+      <territoryOwner territory="S47" owner="Space"/>
+      <territoryOwner territory="S49" owner="Space"/>
+      <territoryOwner territory="Arae" owner="Space"/>
+      <territoryOwner territory="S51" owner="Space"/>
+      <territoryOwner territory="S50" owner="Space"/>
+      <territoryOwner territory="Raynet" owner="Space"/>
+      <territoryOwner territory="S53" owner="Space"/>
+      <territoryOwner territory="S52" owner="Space"/>
+      <territoryOwner territory="S55" owner="Space"/>
+      <territoryOwner territory="S54" owner="Space"/>
+      <territoryOwner territory="S56" owner="Space"/>
+      <territoryOwner territory="S59" owner="Space"/>
+      <territoryOwner territory="Muscae" owner="Space"/>
+      <territoryOwner territory="S4" owner="Space"/>
+      <territoryOwner territory="S5" owner="Space"/>
+      <territoryOwner territory="S6" owner="Space"/>
+      <territoryOwner territory="S7" owner="Space"/>
+      <territoryOwner territory="S8" owner="Space"/>
+      <territoryOwner territory="S60" owner="Space"/>
+      <territoryOwner territory="Pyxidis" owner="Space"/>
+      <territoryOwner territory="S64" owner="Space"/>
+      <territoryOwner territory="S63" owner="Space"/>
+      <territoryOwner territory="S65" owner="Space"/>
+      <territoryOwner territory="S68" owner="Space"/>
+      <territoryOwner territory="Saurus" owner="Space"/>
+      <territoryOwner territory="Wolf" owner="Space"/>
+      <territoryOwner territory="WH-H" owner="Space"/>
+      <territoryOwner territory="S73" owner="Space"/>
+      <territoryOwner territory="S72" owner="Space"/>
+      <territoryOwner territory="S75" owner="Space"/>
+      <territoryOwner territory="S74" owner="Space"/>
+      <territoryOwner territory="Lipi" owner="Space"/>
+      <territoryOwner territory="S77" owner="Space"/>
+      <territoryOwner territory="S76" owner="Space"/>
+      <territoryOwner territory="S79" owner="Space"/>
+      <territoryOwner territory="Cygnus" owner="Space"/>
+      <territoryOwner territory="S78" owner="Space"/>
+      <territoryOwner territory="WH-M" owner="Space"/>
+      <territoryOwner territory="WH-N" owner="Space"/>
+      <territoryOwner territory="WH-O" owner="Space"/>
+      <territoryOwner territory="S80" owner="Space"/>
+      <territoryOwner territory="Sagittae" owner="Space"/>
+      <territoryOwner territory="S81" owner="Space"/>
+      <territoryOwner territory="S86" owner="Space"/>
+      <territoryOwner territory="S85" owner="Space"/>
+      <territoryOwner territory="Alcor" owner="Space"/>
+      <territoryOwner territory="Klystron" owner="Space"/>
+      <territoryOwner territory="Deneb" owner="Space"/>
+      <territoryOwner territory="Delphini" owner="Space"/>
+      <territoryOwner territory="Vela" owner="Space"/>
+      <territoryOwner territory="Fomalhaut" owner="Space"/>
+      <territoryOwner territory="Caeli" owner="Space"/>
+      <territoryOwner territory="Camelopardalis" owner="Space"/>
+      <territoryOwner territory="Aldebaran" owner="Space"/>
+      <territoryOwner territory="Achernar" owner="Space"/>
+      <territoryOwner territory="Mersenne" owner="Space"/>
+      <territoryOwner territory="Trianguli" owner="Space"/>
+      <territoryOwner territory="Rigel" owner="Space"/>
+      <territoryOwner territory="Lyrae" owner="Space"/>
+      <territoryOwner territory="Virginis" owner="Space"/>
+      <territoryOwner territory="Monocerotis" owner="Space"/>
+      <territoryOwner territory="Arcturus" owner="Space"/>
+      <territoryOwner territory="Phoenicis" owner="Space"/>
+      <territoryOwner territory="Menkar" owner="Space"/>
+      <territoryOwner territory="Pavonis" owner="Space"/>
+      <territoryOwner territory="Organnon" owner="Space"/>
+      <territoryOwner territory="Velorum" owner="Space"/>
+      <territoryOwner territory="Ptolemae" owner="Space"/>
+      <territoryOwner territory="Groombridge" owner="Space"/>
+      <territoryOwner territory="Telescopii" owner="Space"/>
+      <territoryOwner territory="Kepler" owner="Space"/>
+      <territoryOwner territory="S11" owner="Space"/>
+      <territoryOwner territory="S13" owner="Space"/>
+      <territoryOwner territory="S15" owner="Space"/>
+      <territoryOwner territory="S14" owner="Space"/>
+      <territoryOwner territory="S16" owner="Space"/>
+      <territoryOwner territory="Columbae" owner="Space"/>
+      <territoryOwner territory="Aquilae" owner="Space"/>
+      <territoryOwner territory="Hyginus" owner="Space"/>
+      <territoryOwner territory="S21" owner="Space"/>
+      <territoryOwner territory="S24" owner="Space"/>
+      <territoryOwner territory="S26" owner="Space"/>
+      <territoryOwner territory="Lacertae" owner="Space"/>
+      <territoryOwner territory="S25" owner="Space"/>
+      <territoryOwner territory="Canopus" owner="Space"/>
+      <territoryOwner territory="Microscopii" owner="Space"/>
+      <territoryOwner territory="S31" owner="Space"/>
+      <territoryOwner territory="S33" owner="Space"/>
+      <territoryOwner territory="S32" owner="Space"/>
+      <territoryOwner territory="Aurigae" owner="Space"/>
+      <territoryOwner territory="S35" owner="Space"/>
+      <territoryOwner territory="S34" owner="Space"/>
+      <territoryOwner territory="S37" owner="Space"/>
+      <territoryOwner territory="S36" owner="Space"/>
+      <territoryOwner territory="S39" owner="Space"/>
+      <territoryOwner territory="S38" owner="Space"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="Dreadnought" territory="Geminorum" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="S41" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="S43" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Crateris" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Factory" territory="Crateris" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Slaveshield" territory="Crateris" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Crateris" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="SaMatra" territory="Crateris" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Crateris" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Altair" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Antares" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Antares" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Doradus" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Eridani" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Eridani" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Lentilis" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Lentilis" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Chameleonis" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Metis" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Metis" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Crucis" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Equulei" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Equulei" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="S17" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="S28" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="S28" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="S27" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Cancri" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Dreadnought" territory="Maksutov" quantity="1" owner="Ur-Quan"/>
+      <unitPlacement unitType="Fighter" territory="Maksutov" quantity="2" owner="Ur-Quan"/>
+      <unitPlacement unitType="Factory" territory="Procyon" quantity="1" owner="Chmmr"/>
+      <unitPlacement unitType="Slaveshield" territory="Procyon" quantity="1" owner="Chmmr"/>
+      <unitPlacement unitType="Avatar" territory="Procyon" quantity="1" owner="Chmmr"/>
+      <unitPlacement unitType="Broodhome" territory="Procyon" quantity="1" owner="Chmmr"/>
+      <unitPlacement unitType="X-Wing" territory="Procyon" quantity="2" owner="Chmmr"/>
+      <unitPlacement unitType="Y-Wing" territory="Procyon" quantity="2" owner="Chmmr"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Procyon" quantity="2" owner="Chmmr"/>
+      <unitPlacement unitType="Intruder" territory="Regulus" quantity="1" owner="Vux"/>
+      <unitPlacement unitType="Intruder" territory="Sextantis" quantity="2" owner="Vux"/>
+      <unitPlacement unitType="Factory" territory="Luyten" quantity="1" owner="Vux"/>
+      <unitPlacement unitType="Slaveshield" territory="Luyten" quantity="1" owner="Vux"/>
+      <unitPlacement unitType="Intruder" territory="Luyten" quantity="2" owner="Vux"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Luyten" quantity="2" owner="Vux"/>
+      <unitPlacement unitType="ZEX" territory="Luyten" quantity="1" owner="Vux"/>
+      <unitPlacement unitType="Intruder" territory="Indi" quantity="1" owner="Vux"/>
+      <unitPlacement unitType="Intruder" territory="Cerenkov" quantity="2" owner="Vux"/>
+      <unitPlacement unitType="Terminator" territory="S82" quantity="2" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Terminator" territory="S83" quantity="2" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Terminator" territory="Capella" quantity="3" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Factory" territory="Capella" quantity="1" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Slaveshield" territory="Capella" quantity="2" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Capella" quantity="2" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Factory" territory="Gorno" quantity="1" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Slaveshield" territory="Gorno" quantity="1" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Scout" territory="Gorno" quantity="3" owner="Zeep-Zeep"/>
+      <unitPlacement unitType="Avenger" territory="Mizar" quantity="2" owner="Ilwrath"/>
+      <unitPlacement unitType="Avenger" territory="Volantis" quantity="2" owner="Ilwrath"/>
+      <unitPlacement unitType="Avenger" territory="Bootis" quantity="1" owner="Ilwrath"/>
+      <unitPlacement unitType="Avenger" territory="Tauri" quantity="4" owner="Ilwrath"/>
+      <unitPlacement unitType="Factory" territory="Tauri" quantity="1" owner="Ilwrath"/>
+      <unitPlacement unitType="Slaveshield" territory="Tauri" quantity="1" owner="Ilwrath"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Tauri" quantity="2" owner="Ilwrath"/>
+      <unitPlacement unitType="Avenger" territory="Olber" quantity="1" owner="Ilwrath"/>
+      <unitPlacement unitType="Factory" territory="Krueger" quantity="1" owner="Pkunk"/>
+      <unitPlacement unitType="Slaveshield" territory="Krueger" quantity="1" owner="Pkunk"/>
+      <unitPlacement unitType="Fury" territory="Krueger" quantity="4" owner="Pkunk"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Krueger" quantity="2" owner="Pkunk"/>
+      <unitPlacement unitType="Fury" territory="Giclas" quantity="2" owner="Pkunk"/>
+      <unitPlacement unitType="Fury" territory="Lacaille" quantity="2" owner="Pkunk"/>
+      <unitPlacement unitType="Eluder" territory="Illuminati" quantity="2" owner="Spathi"/>
+      <unitPlacement unitType="Eluder" territory="Ceti" quantity="1" owner="Spathi"/>
+      <unitPlacement unitType="Eluder" territory="Vitalis" quantity="2" owner="Spathi"/>
+      <unitPlacement unitType="Eluder" territory="Herculis" quantity="1" owner="Spathi"/>
+      <unitPlacement unitType="Factory" territory="Gruis" quantity="1" owner="Spathi"/>
+      <unitPlacement unitType="Slaveshield" territory="Gruis" quantity="1" owner="Spathi"/>
+      <unitPlacement unitType="Eluder" territory="Gruis" quantity="3" owner="Spathi"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Gruis" quantity="2" owner="Spathi"/>
+      <unitPlacement unitType="Eluder" territory="Squidi" quantity="1" owner="Spathi"/>
+      <unitPlacement unitType="Factory" territory="Tucanae" quantity="1" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Slaveshield" territory="Tucanae" quantity="1" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Stinger" territory="Tucanae" quantity="3" owner="ZoqFotPik"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Tucanae" quantity="2" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Stinger" territory="Cassiopiea" quantity="2" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Stinger" territory="Carinae" quantity="2" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Stinger" territory="Caphei" quantity="2" owner="ZoqFotPik"/>
+      <unitPlacement unitType="Drone" territory="Normae" quantity="2" owner="Umgah"/>
+      <unitPlacement unitType="Factory" territory="Orionis" quantity="1" owner="Umgah"/>
+      <unitPlacement unitType="Slaveshield" territory="Orionis" quantity="1" owner="Umgah"/>
+      <unitPlacement unitType="Drone" territory="Orionis" quantity="3" owner="Umgah"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Orionis" quantity="2" owner="Umgah"/>
+      <unitPlacement unitType="Drone" territory="Octantis" quantity="2" owner="Umgah"/>
+      <unitPlacement unitType="Guardian" territory="Mira" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Nemesis" territory="Mira" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Marine" territory="Mira" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Guardian" territory="Mensae" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Nemesis" territory="Mensae" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Marine" territory="Mensae" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Factory" territory="Vulpeculae" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Slaveshield" territory="Vulpeculae" quantity="1" owner="Orz"/>
+      <unitPlacement unitType="Guardian" territory="Vulpeculae" quantity="2" owner="Orz"/>
+      <unitPlacement unitType="Nemesis" territory="Vulpeculae" quantity="2" owner="Orz"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Vulpeculae" quantity="2" owner="Orz"/>
+      <unitPlacement unitType="Marine" territory="Vulpeculae" quantity="2" owner="Orz"/>
+      <unitPlacement unitType="Terminator" territory="Pollux" quantity="2" owner="Veep-Neep"/>
+      <unitPlacement unitType="Terminator" territory="Serpentis" quantity="3" owner="Veep-Neep"/>
+      <unitPlacement unitType="Factory" territory="Serpentis" quantity="1" owner="Veep-Neep"/>
+      <unitPlacement unitType="Slaveshield" territory="Serpentis" quantity="2" owner="Veep-Neep"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Serpentis" quantity="2" owner="Veep-Neep"/>
+      <unitPlacement unitType="Terminator" territory="Scuti" quantity="2" owner="Veep-Neep"/>
+      <unitPlacement unitType="Torch" territory="Antilae" quantity="2" owner="Thraddash"/>
+      <unitPlacement unitType="Factory" territory="Draconis" quantity="1" owner="Thraddash"/>
+      <unitPlacement unitType="Slaveshield" territory="Draconis" quantity="1" owner="Thraddash"/>
+      <unitPlacement unitType="Torch" territory="Draconis" quantity="4" owner="Thraddash"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Draconis" quantity="2" owner="Thraddash"/>
+      <unitPlacement unitType="Torch" territory="Apodis" quantity="2" owner="Thraddash"/>
+      <unitPlacement unitType="Skiff" territory="Circini" quantity="2" owner="Humans"/>
+      <unitPlacement unitType="Factory" territory="Betelgeuse" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Slaveshield" territory="Betelgeuse" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Penetrator" territory="Betelgeuse" quantity="2" owner="Humans"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Betelgeuse" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Cruiser" territory="Sirius" quantity="3" owner="Humans"/>
+      <unitPlacement unitType="Factory" territory="Sirius" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Slaveshield" territory="Sirius" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Sirius" quantity="2" owner="Humans"/>
+      <unitPlacement unitType="Vindicator" territory="Sirius" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Factory" territory="Chandrasekhar" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Slaveshield" territory="Chandrasekhar" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Skiff" territory="Chandrasekhar" quantity="3" owner="Humans"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Chandrasekhar" quantity="1" owner="Humans"/>
+      <unitPlacement unitType="Podship" territory="Arianni" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Bellatrix" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Sculptoris" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Copernicus" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Hyperion" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Sagitarii" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Brahe" quantity="2" owner="Mycon"/>
+      <unitPlacement unitType="Factory" territory="Scorpii" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Slaveshield" territory="Scorpii" quantity="1" owner="Mycon"/>
+      <unitPlacement unitType="Podship" territory="Scorpii" quantity="3" owner="Mycon"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Scorpii" quantity="2" owner="Mycon"/>
+      <unitPlacement unitType="Factory" territory="Librae" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Slaveshield" territory="Librae" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Blade" territory="Librae" quantity="2" owner="Utwig"/>
+      <unitPlacement unitType="Jugger" territory="Librae" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Librae" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Factory" territory="Aquarii" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Slaveshield" territory="Aquarii" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Blade" territory="Aquarii" quantity="2" owner="Utwig"/>
+      <unitPlacement unitType="Jugger" territory="Aquarii" quantity="3" owner="Utwig"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Aquarii" quantity="2" owner="Utwig"/>
+      <unitPlacement unitType="Blade" territory="Hyades" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Jugger" territory="Hyades" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Blade" territory="S10" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Jugger" territory="S10" quantity="1" owner="Utwig"/>
+      <unitPlacement unitType="Marauder" territory="S9" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Hydrae" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Leonis" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Fornacis" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Factory" territory="Andromedae" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Slaveshield" territory="Andromedae" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Andromedae" quantity="3" owner="Kor-Ah"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Andromedae" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Reticuli" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Horologii" quantity="3" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S18" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S20" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S22" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="Leporis" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S23" quantity="1" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S29" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Marauder" territory="S30" quantity="2" owner="Kor-Ah"/>
+      <unitPlacement unitType="Probe" territory="Centauri" quantity="2" owner="Slylandro"/>
+      <unitPlacement unitType="Factory" territory="Centauri" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Slaveshield" territory="Centauri" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Trader" territory="Centauri" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Centauri" quantity="2" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="S1" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="S2" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="Lyncis" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Factory" territory="Lyncis" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Slaveshield" territory="Lyncis" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Trader" territory="Lyncis" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="Capricorni" quantity="2" owner="Slylandro"/>
+      <unitPlacement unitType="Factory" territory="Capricorni" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Slaveshield" territory="Capricorni" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="Ophiuchi" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Probe" territory="Vega" quantity="4" owner="Slylandro"/>
+      <unitPlacement unitType="Factory" territory="Vega" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="Slaveshield" territory="Vega" quantity="1" owner="Slylandro"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Vega" quantity="2" owner="Slylandro"/>
+      <unitPlacement unitType="Factory" territory="Persei" quantity="1" owner="Druuge"/>
+      <unitPlacement unitType="Slaveshield" territory="Persei" quantity="1" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="Persei" quantity="3" owner="Druuge"/>
+      <unitPlacement unitType="OrbitalDefense" territory="Persei" quantity="2" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="WH-E" quantity="1" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="Arietis" quantity="2" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="Almagest" quantity="1" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="Pictoris" quantity="1" owner="Druuge"/>
+      <unitPlacement unitType="Mauler" territory="Puppis" quantity="2" owner="Druuge"/>
+      <unitPlacement unitType="Slaveshield" territory="WH-H" quantity="100" owner="Space"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Ur-Quan" resource="PUs" quantity="30"/>
+      <resourceGiven player="Chmmr" resource="PUs" quantity="30"/>
+      <resourceGiven player="Vux" resource="PUs" quantity="30"/>
+      <resourceGiven player="Zeep-Zeep" resource="PUs" quantity="30"/>
+      <resourceGiven player="Ilwrath" resource="PUs" quantity="30"/>
+      <resourceGiven player="Pkunk" resource="PUs" quantity="30"/>
+      <resourceGiven player="Spathi" resource="PUs" quantity="30"/>
+      <resourceGiven player="ZoqFotPik" resource="PUs" quantity="30"/>
+      <resourceGiven player="Umgah" resource="PUs" quantity="30"/>
+      <resourceGiven player="Orz" resource="PUs" quantity="30"/>
+      <resourceGiven player="Veep-Neep" resource="PUs" quantity="30"/>
+      <resourceGiven player="Thraddash" resource="PUs" quantity="30"/>
+      <resourceGiven player="Humans" resource="PUs" quantity="30"/>
+      <resourceGiven player="Mycon" resource="PUs" quantity="30"/>
+      <resourceGiven player="Utwig" resource="PUs" quantity="30"/>
+      <resourceGiven player="Kor-Ah" resource="PUs" quantity="30"/>
+      <resourceGiven player="Slylandro" resource="PUs" quantity="30"/>
+      <resourceGiven player="Druuge" resource="PUs" quantity="30"/>
+      <resourceGiven player="Space" resource="PUs" quantity="1"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Honorable Surrender" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="LHTR Heavy Bombers" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="true">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Always on AA" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at end of round" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Display Sea Names" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Shipyards" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Multiple AA Per Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Control Sea Zone Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Previous Units Fight" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Territory Turn Limit" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="SBR Affects Unit Production" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Impassable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Blitzable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="a bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Total Victory" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Hierarchy Total Victory VCs" value="14" editable="false">
+      <number min="7" max="14"/>
+    </property>
+    <property name="Alliance Total Victory VCs" value="14" editable="false">
+      <number min="7" max="14"/>
+    </property>
+    <property name="mapName" value="ur_quan_war_masters_edition" editable="false"/>
+    <property name="notes">
+      <value><![CDATA[   
+
+<html>
+<body bgcolor="DADADA" align="center">
+
+<div style="text-align: center;">
+<br>
+<img src="display image here"/>
+
+<br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:000000;">Ur-Quan Slave War: Masters Edition by DrSeptapus</span></b><span style="font-size:280%;color:000000;"></span>
+<br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:000000;">Version 1.0</span></b><span style="font-size:280%;color:000000;"></span>
+<br>
+<br>
+<br>Inspired by the awesome universe that is the Star Control series. Take part as either the Alliance, a group of rebels who attempt the overthrow their slave lords. Or as the Hierarchy, lead by the Ur-Quan they seek to retain their hold over the Alliance. 
+<br>
+<br>Alliance Nations:
+<br>Chmmr(Also has Chenjetsu and Mmrnmhrm ships)
+<br>Humans(Also has Arilou and Syreen ships)
+<br>Pkunk
+<br>Orz(Also has Androsynth chips)
+<br>ZoqFotPik
+<br>Thraddash
+<br>Utwig(Also has Supok ships)
+<br>Zeep-Zeep(Rebel Yehat with Shofixti ships)
+<br>
+<br>Hierarchy Nations:
+<br>Ur-Quan
+<br>Umgah
+<br>Ilwrath
+<br>Spathi
+<br>Vux
+<br>Mycon
+<br>Veep-Neep(Loyalist Yehat)
+<br>
+<br>Solo Nations(should be played by A.I.)
+<br>Kor-Ah
+<br>Druuge
+<br>Slylandro
+<br>
+<br>Each nation here(except the Slylandro) has 1 Victory City at their capital. Either side will need 14 VCs to win.
+<br>
+<br>Space: This is a faction I put in for the sake of getting that A.I. to actually expand, without the space faction the A.I. would only attack player owned tiles. I would suggest you set this faction to Does Nothing A.I.
+<br>
+<br>Some Notes:
+<br>This map does not work like other space maps in that every tile is a land tile and there are no naval units, all ships are simply land units (except 2 air units).
+<br>
+<br>Some nations start with ships that they are not able to build again. The Ur-Quan start with a unit called the Sa-Matra, the Humas get the Vindicator, Vux get Admiral ZEX and Slylandro get Melnorme Traders. Use these units very wisely, they are quite strong.
+<br>
+<br>A few nations are in a very rough spot and can be(almost expect to be) crippled or conquered early. These nations are the ZoqFotPik, Humans, Orz, Vux, Zeep-Zeep, and Veep-Neep. These nations are by no means useless and can become very strong with good expansions but they will take a but more skill than other nations.
+<br>
+<br>As mentioned above the Kor-Ah, Druuge, and Slylandro are each on their own. This means they will attack anyone and everyone who comes near them. However the Kor-Ah and Druuge capitals are counted towards the 14 VCs you need for a win so consider conquering them if able.
+]]></value>
+    </property>
+  </propertyList>
+</game>
