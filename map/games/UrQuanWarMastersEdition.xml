@@ -1535,7 +1535,7 @@
     <attachment name="territoryAttachment" attachTo="Crateris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="12"/>
       <option name="capital" value="Ur-Quan"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Altair" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1582,7 +1582,7 @@
     <attachment name="territoryAttachment" attachTo="Procyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="9"/>
       <option name="capital" value="Chmmr"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Regulus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1599,7 +1599,7 @@
     <attachment name="territoryAttachment" attachTo="Luyten" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Vux"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S84" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -1619,7 +1619,7 @@
     <attachment name="territoryAttachment" attachTo="Capella" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Zeep-Zeep"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Gorno" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1636,7 +1636,7 @@
     <attachment name="territoryAttachment" attachTo="Tauri" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Ilwrath"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Olber" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1644,7 +1644,7 @@
     <attachment name="territoryAttachment" attachTo="Krueger" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Pkunk"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Giclas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1667,7 +1667,7 @@
     <attachment name="territoryAttachment" attachTo="Gruis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Spathi"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Squidi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1675,7 +1675,7 @@
     <attachment name="territoryAttachment" attachTo="Tucanae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
       <option name="capital" value="ZoqFotPik"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cassiopiea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1692,7 +1692,7 @@
     <attachment name="territoryAttachment" attachTo="Orionis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Umgah"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Octantis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1709,7 +1709,7 @@
     <attachment name="territoryAttachment" attachTo="Vulpeculae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Orz"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pollux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -1717,7 +1717,7 @@
     <attachment name="territoryAttachment" attachTo="Serpentis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Veep-Neep"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Scuti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1731,7 +1731,7 @@
     <attachment name="territoryAttachment" attachTo="Draconis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Thraddash"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -1748,7 +1748,7 @@
     <attachment name="territoryAttachment" attachTo="Sirius" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="7"/>
       <option name="capital" value="Humans"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chandrasekhar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1780,7 +1780,7 @@
     <attachment name="territoryAttachment" attachTo="Scorpii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="9"/>
       <option name="capital" value="Mycon"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Librae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1788,7 +1788,7 @@
     <attachment name="territoryAttachment" attachTo="Aquarii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="8"/>
       <option name="capital" value="Utwig"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hyades" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1811,7 +1811,7 @@
     <attachment name="territoryAttachment" attachTo="Andromedae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
       <option name="capital" value="Kor-Ah"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Reticuli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1865,7 +1865,7 @@
     <attachment name="territoryAttachment" attachTo="Persei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="9"/>
       <option name="capital" value="Druuge"/>
-      <option name="victoryCity" value="true"/>
+      <option name="victoryCity" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S57" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
@@ -2681,7 +2681,7 @@
     <property name="Kamikaze Airplanes" value="false" editable="true">
       <boolean/>
     </property>
-    <property name="Units repair at end of round" value="true" editable="true">
+    <property name="Units Repair Hits End Turn" value="true" editable="true">
       <boolean/>
     </property>
     <property name="Display Sea Names" value="true" editable="true">
