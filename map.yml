@@ -1,0 +1,3 @@
+map_name: ur_quan_war_masters_edition
+games:
+- {game_name: 'Ur-Quan Slave War: Masters Edition', file_name: UrQuanWarMastersEdition.xml}
